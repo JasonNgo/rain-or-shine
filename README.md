@@ -1,6 +1,6 @@
 # rain-or-shine
 Weather App
 
-Basically weather app built using the:
+Basic weather app built using:
 - OpenWeatherMap API
 - Alamofire Cocoa Pod
