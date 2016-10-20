@@ -25,5 +25,5 @@ let CELSIUS_CONSTANT = 273.15
 typealias DownloadComplete = () -> ()
 
 // Need to include x and y coordinates
-let CURRENT_WEATHER_URL = "\(BASE_URL)\(WEATHER)\(LATITUDE)35\(LONGITUDE)139\(APP_ID)\(API_KEY)"
-let FORECAST_URL = "\(BASE_URL)\(FORECAST)\(LATITUDE)35\(LONGITUDE)139\(CNT)\(MODE)\(APP_ID)\(API_KEY)"
+let CURRENT_WEATHER_URL = "\(BASE_URL)\(WEATHER)\(LATITUDE)\(Location.sharedInstance.latitude!)\(LONGITUDE)\(Location.sharedInstance.longitude!)\(APP_ID)\(API_KEY)"
+let FORECAST_URL = "\(BASE_URL)\(FORECAST)\(LATITUDE)\(Location.sharedInstance.latitude!)\(LONGITUDE)\(Location.sharedInstance.longitude!)\(CNT)\(MODE)\(APP_ID)\(API_KEY)"
